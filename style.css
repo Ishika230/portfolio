@@ -1,0 +1,73 @@
+.gradient-background {
+    background: black;
+    padding: 50px 0;
+    
+    
+  }
+  .navbar{
+    background: #373A40;
+    padding-left: 0px;
+    text-align: left;
+  }
+  .hello{
+    background: linear-gradient(300deg, #00bfff,#ef8172);
+    background-clip: text;
+    color:transparent;
+    font-weight: 900;
+    font-size: 100;
+    align-content: center;
+    animation: gradient-animation 3s ease infinite;
+    background-size: 200% 200%;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  h1{
+    font-size: 43px; 
+  }
+  .about_me{
+    background: linear-gradient(300deg, grey, white);
+    background-clip: text;
+    color:transparent;
+    background-size: 200% 200%;
+  }
+  .col-lg-6{
+    text-align:center;
+ }
+ .text-justify{
+    text-align: justify;
+}
+  .display-5{
+    color:white;
+  }
+  .lead{
+    color:white;
+  }
+.d-block{
+    border: solid 10px;
+    border-color: #373A40;
+    padding: 10px;
+    height: 250px;
+    width: 350px;
+   
+}
+.photo{
+   border: solid 10px;
+    border-color: #373A40;
+    padding: 10px;
+
+}
+.carousel-item img{
+    opacity: 30%;
+}
+
+
+  
